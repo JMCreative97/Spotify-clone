@@ -1,0 +1,42 @@
+.Sidebar {
+    background-color:#040404;
+    width: 12pc;
+    height: 100pc;
+}
+
+.Sidebar .Sidebar-logo{
+   height: 5pc;
+   object-fit: contain;
+}
+.main-icon{
+    width: 30%!important;
+}
+p {
+    color: #cacaca;
+}
+
+
+.Sidebar-elements {
+    padding-left: 2px;
+    font-size: 13px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: flex;
+    padding: 4px;
+    align-items: center;
+}
+
+li .item {
+    margin-left: 14px;
+}
+
+.Sidebar-main-menu {
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+

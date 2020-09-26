@@ -1,0 +1,45 @@
+.Header{
+    display: flex;
+    align-items: center;
+    width: 100pc;
+    height: 5pc;
+    margin-left: 20px;
+    justify-content: space-between;
+}
+.Header .Arrows{
+    display: flex;
+    align-items: center;
+}
+
+.Header .Input-text{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 35%;
+    border-radius: 20px;
+    border: 1px solid black;
+}
+
+.Header .Input-text > input{
+    border: none;
+    flex: 1;
+   
+    
+}
+.Search-icon{
+    margin-left: 13px;
+}
+.Header-search{
+    border-radius: 4px;
+    height: 20px;
+    border-color: #ffffff;
+}
+
+.Account {
+    display: flex;
+    align-items: center;
+}
+
+.Account p {
+    color: black !important;
+}
