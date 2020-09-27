@@ -1,6 +1,12 @@
+@font-face { 
+font-family: Metropolis-medium;
+    src: url('fonts/Metropolis-Medium.otf') format("opentype");
+}
+
 .Sidebar {
+    font-family: Metropolis-bold !important;
     background-color:#040404;
-    width: 12pc;
+    width: 230px;
     height: 100pc;
 }
 
@@ -12,12 +18,13 @@
     width: 30%!important;
 }
 p {
+    font-family:Metropolis-medium !important;
     color: #cacaca;
 }
 
 
 .Sidebar-elements {
-    padding-left: 2px;
+    margin-left: 15px;
     font-size: 13px;
 }
 
@@ -40,3 +47,6 @@ li .item {
     margin-bottom: 15px;
 }
 
+li .home, li .search, li .libary{
+    font-size: 30px;
+}

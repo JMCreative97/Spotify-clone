@@ -9,9 +9,9 @@ import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
 function Header() {
     return (
         <div className="Header">
-            <div className="Arrows" style={{ fill: '#cacaca'}}>
-                <ChevronLeftOutlinedIcon/>
-                <ChevronRightOutlinedIcon/>
+            <div className="Arrows">
+                <ChevronLeftOutlinedIcon className="left"/>
+                <ChevronRightOutlinedIcon className="right"/>
                 </div>
             <div className="Input-text">
                 <SearchOutlinedIcon className="Search-icon"/>

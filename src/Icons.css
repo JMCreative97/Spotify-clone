@@ -1,0 +1,17 @@
+.icons {
+    align-items: center;
+    display: flex;
+    
+}
+.icons .favourite{
+    fill: #cacaca;
+    font-size: 18px;
+    
+  
+}
+
+.icons .expand {
+    fill: #cacaca;
+    font-size: 18px;
+    margin-left: 15px;
+}

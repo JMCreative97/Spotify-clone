@@ -1,0 +1,17 @@
+.progress{
+    display: flex;
+    align-content: center;
+
+}
+
+p {
+    font-size: 10px;
+}
+
+.bar {
+    width: 70%;
+    height: 4px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 5px;
+}

@@ -1,0 +1,43 @@
+@font-face { 
+    font-family: Metropolis-medium;
+     src: url('fonts/Metropolis-Medium.otf') format("opentype");
+  }
+  @font-face { 
+    font-family: Metropolis-light;
+     src: url('fonts/Metropolis-Light.otf') format("opentype");
+  }
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.CurrentSong{
+    margin:10px;
+    margin-top: 11px;
+    display: flex;
+    align-items: center;
+
+}
+
+.songicon{
+    width: 60px;
+}
+
+.songinfo {
+    margin:8px;
+}
+.songinfo p{
+    color:white;
+    margin: 5px;
+}
+
+.songtitle{
+    font-size: 13px;
+    font-family: Metropolis-medium !important;
+}
+
+.songdescription {
+    color:#b5babd !important;
+    font-size: 12px;
+    font-family: Metropolis-light !important;
+}

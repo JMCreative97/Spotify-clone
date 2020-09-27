@@ -1,3 +1,4 @@
-div .App{
+.App .main{
     display: flex;
+    background-color: #121212;
 }

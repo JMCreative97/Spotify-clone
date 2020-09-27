@@ -17,15 +17,15 @@ function Sidebar() {
             <div className="Sidebar-elements">
                 <ul className="Sidebar-main-menu">
                     <li className="Sidebar-home">
-                        <HomeOutlinedIcon fontSize="large" style={{ fill: '#cacaca'}}/>
+                        <HomeOutlinedIcon className="home"/>
                         <p className="item">Home</p>
                     </li>
                     <li className="Sidebar-search">
-                        <SearchSharpIcon fontSize="large" style={{ fill: '#cacaca'}}/>
+                        <SearchSharpIcon className="search"/>
                         <p className="item">Search</p>
                     </li>
                     <li className="Sidebar-libary">
-                        <ReorderSharpIcon fontSize="large" style={{ fill: '#cacaca' }}/>
+                        <ReorderSharpIcon className="libary"/>
                         <p className="item">Your Libary</p>
                     </li>
                 </ul>

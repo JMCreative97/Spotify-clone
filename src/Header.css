@@ -1,27 +1,46 @@
+@font-face { 
+font-family: Metropolis-medium;
+    src: url('fonts/Metropolis-Medium.otf') format("opentype");
+}
+
 .Header{
+    position: absolute;
+    top: 0;
     display: flex;
     align-items: center;
-    width: 100pc;
-    height: 5pc;
-    margin-left: 20px;
+    width: 78%;
+    height: 60px;
+    margin-left: 260px;
     justify-content: space-between;
+    font-family: Metropolic-bold !important;
 }
+
 .Header .Arrows{
     display: flex;
     align-items: center;
 }
 
+.Header .Arrows .left, .Header .Arrows .right{
+    font-size:32px;
+    background-color:	#050505;
+    margin:8px;
+    border-radius: 20;
+}
+
+
 .Header .Input-text{
     display: flex;
     align-items: center;
-    height: 40px;
+    height: 30px;
     width: 35%;
     border-radius: 20px;
+    background-color: #ffffff;
     border: 1px solid black;
 }
 
 .Header .Input-text > input{
     border: none;
+    margin: 4px;
     flex: 1;
    
     
@@ -41,5 +60,7 @@
 }
 
 .Account p {
-    color: black !important;
+    font-family: Metropolis-medium !important;
+    color: white !important;
+    margin: 5px;
 }
