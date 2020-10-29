@@ -1,11 +1,14 @@
 .controls {
-    margin:50px;
     width: 50%;
- 
-}
+    }
 .buttons{
     margin: 5px;
+    margin-left: 20px;
+    width: 100%;
+    max-width: 400px;
 }
 .progress {
     margin: 5px;
+    width: 100%;
+
 }

@@ -6,29 +6,35 @@ import AddBoxSharpIcon from '@material-ui/icons/AddBoxSharp';
 import FavoriteSharpIcon from '@material-ui/icons/FavoriteSharp';
 import "./Sidebar.css";
 import logo from './imgs/logo.png';
-
-
-
+import SidebarOption from './SidebarOption';
+import { useDataLayerValue } from './DataLayer';
 
 function Sidebar() {
+
+    const [{ playlists }, dispatch] = useDataLayerValue();
     return (
         <div className="Sidebar">
             <img src={logo} alt="logo" className="Sidebar-logo"></img>
             <div className="Sidebar-elements">
-                <ul className="Sidebar-main-menu">
-                    <li className="Sidebar-home">
-                        <HomeOutlinedIcon className="home"/>
-                        <p className="item">Home</p>
-                    </li>
-                    <li className="Sidebar-search">
-                        <SearchSharpIcon className="search"/>
-                        <p className="item">Search</p>
-                    </li>
-                    <li className="Sidebar-libary">
-                        <ReorderSharpIcon className="libary"/>
-                        <p className="item">Your Libary</p>
-                    </li>
-                </ul>
+
+                <SidebarOption Icon={HomeOutlinedIcon} title="Home"/>
+                <SidebarOption Icon={SearchSharpIcon} title="Search"/>
+                <SidebarOption Icon={ReorderSharpIcon} title="Your Libary"/>
+
+                <br/>
+                <p className="titlePlaylist"><b>PLAYLISTS</b></p>
+                <hr/>
+                <br/>
+
+                {playlists?.items?.map(playlist => (
+                    <SidebarOption title={playlist.name}/>
+                ))}
+
+                <SidebarOption title="Rock"></SidebarOption>
+                <SidebarOption title="RnB"></SidebarOption>
+                <SidebarOption title="Pop"></SidebarOption>
+
+{/* 
                 <ul className="Sidebar-playlists">
                     <li className="title">
                         <p>PLAYLISTS</p>
@@ -41,7 +47,7 @@ function Sidebar() {
                         <FavoriteSharpIcon fontSize="large" style={{ fill: '#cacaca' }}/>
                         <p className="item">Liked Songs</p>
                     </li>
-                </ul>
+                </ul> */}
             </div>
             {/*Home*/}
             {/*Search*/}

@@ -10,43 +10,30 @@ font-family: Metropolis-medium;
     height: 100pc;
 }
 
+.Sidebar > hr {
+    width: 20px;
+}
+
 .Sidebar .Sidebar-logo{
    height: 5pc;
    object-fit: contain;
 }
-.main-icon{
+.main-icon { 
     width: 30%!important;
 }
-p {
-    font-family:Metropolis-medium !important;
-    color: #cacaca;
-}
-
 
 .Sidebar-elements {
     margin-left: 15px;
-    font-size: 13px;
 }
 
-ul {
-    list-style-type: none;
+.titlePlaylist {
+    margin-bottom: 10px;
+    color: white;
 }
-
-li {
-    display: flex;
-    padding: 4px;
-    align-items: center;
-}
-
-li .item {
-    margin-left: 14px;
-}
-
-.Sidebar-main-menu {
-    margin-top: 5px;
-    margin-bottom: 15px;
-}
-
-li .home, li .search, li .libary{
-    font-size: 30px;
+.titlePlaylist b{
+    margin-left:8px;
+    letter-spacing: 1px;
+    font-size: 12
+    12spx !important;
+    
 }

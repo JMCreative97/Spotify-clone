@@ -2,7 +2,9 @@
   font-family: Metropolis;
    src: url('fonts/Metropolis-Regular.otf') format("opentype");
    } 
-
+body::-webkit-scrollbar{
+  display: none;
+}
 * {
   margin:0;
   padding:0;

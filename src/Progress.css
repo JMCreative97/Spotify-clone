@@ -1,15 +1,16 @@
 .progress{
     display: flex;
     align-content: center;
-
 }
 
-p {
+.remaining_time, .end_time {
     font-size: 10px;
+    color: white;
+
 }
 
 .bar {
-    width: 70%;
+    width: 87%;
     height: 4px;
     background-color: white;
     margin: 5px;

@@ -4,9 +4,9 @@ import './Progress.css';
 function Progress() {
     return (
         <div className="progress">
-            <p>0:00</p>
+            <p className="remaining_time">0:00</p>
             <div className="bar"></div>
-            <p>0:00</p>
+            <p className="end_time">0:00</p>
         </div>
     )
 }

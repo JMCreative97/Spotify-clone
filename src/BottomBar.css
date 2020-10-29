@@ -1,19 +1,16 @@
 .BottomBar {
-    position: absolute;
+    position: fixed;
+    bottom: 0px;
     bottom: 0;
     display: flex;
-    height: 12%;
+    height: 100px;
     width: 100%;
     background-color:#282828;
 
 }
-
-.BottomBar .currentsong {
-    
-}
 .BottomBar .icons {
-
+    padding: 0 60px;
 }
 .BottomBar .controls {
-    
+    flex:0.5;
 }
